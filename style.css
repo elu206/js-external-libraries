@@ -1,0 +1,64 @@
+html{
+  background-image: url('star.png');
+  background-repeat: repeat;
+  background-size: 100px;
+  background-color: #303030;
+}
+
+body, html{
+  color: #fff382;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+.mainContainer{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  margin: 5vw;
+  margin-bottom: 2vw;
+}
+
+.fullWidth{
+  grid-column-start: 0;
+  grid-column-end: span 5;
+}
+
+.glide{
+  margin-bottom: 0;
+
+}
+
+img{
+  width: 100%
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.thoughts{
+
+}
+
+.thoughts h2{
+  font-size: 2rem;
+}
+
+.thoughts li{
+  font-size: 1.5rem;
+}
+
+.screencaps {
+  grid-column-start: 0;
+  grid-column-end: span 5;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: .5vmin;
+  grid-row-gap: .5vmin;
+  padding: 20px;
+  margin-bottom: 5vw;
+  background-color: #f24033;
+  border: 5px solid #960a00;
+}
